@@ -1,0 +1,1 @@
+In this text file i am going to tell what i actually used in ai to make this project so mainly i took help of MDN website to remember any function that i forgot to implement ,basically see the key words for specific function.

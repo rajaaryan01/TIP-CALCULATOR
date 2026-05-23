@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #111;
+}
+
+.tip-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.tip-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tip-btn.active {
+  background: #111;
+  color: white;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#resetBtn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  background: #111;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media (max-width: 500px) {
+
+  .tip-buttons {
+    flex-direction: column;
+  }
+
+}
